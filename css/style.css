@@ -1,0 +1,149 @@
+/*
+Project Name: Landing Page
+Client: Relaxr
+Author: Mario Van Poppel
+Developer @GA in London
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	font-size: 24px;
+	line-height: 1.4;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #fff;
+}	
+
+h3 {
+	font-size: 20px;
+	font-weight: 500;
+}
+	
+a:hover {
+	color: #4169E1;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 62px;
+  color: 606161;
+  font-weight: 800;
+}
+
+header {
+  height: 350px; 
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  background-size: cover;
+  padding-top: 28px;
+}
+
+/* For header I first looked up the dimensions of the image in my Finder. But when I used these
+dimensions the image was much too large, pushing all the other content down. Then I fiddled around
+a bit and found the background-size:cover - that did it! */
+
+.CTA {
+  width: 180px;
+  border-radius: 5px;
+  color: #000;
+  background-color: #f9e42e;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+  padding: 8px 0;
+}
+
+/*Clarification on the above CTA (call to action) - I followed the design file
+where it puts the font size for the text on 14px. But compared to the jpg
+it looks small. I followed the design file in this case.*/
+
+.benefits {
+  color: #121212;
+  font-size: 13px;	
+  text-align: left;
+  background-color: #f0efef;
+}
+
+.list {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.testimonial {
+
+  background: url(../images/testimonial_bg.jpg) no repeat center top #071324;
+  background-size: cover;
+}
+
+/* HELP! Not sure why testimonial background image is not showing up */
+
+.quote {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300px;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px; 
+}
+
+.signup {
+  height: 50px;
+  background-color: #f9e42e;
+}
+
+.footer {
+  height: 50px;
+  backround-color: #121212;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
