@@ -157,10 +157,11 @@ it looks small. I followed the design file in this case.*/
 
 footer {
   background-color: #121212;
+  padding: 15px 0 45px;
+  text-align: center;
 }
 
 .footerlogo {
-  text-align: center;
   color: #f9e42e;
   font-weight: 800;
   font-size: 24px;
@@ -170,12 +171,10 @@ footer {
 footer ul li {
   display: inline-block;
   list-style: none;
-  margin: 0 26px 75px;
-  text-align: center;
+  margin: 0 0 15px;
 }
 
 .footertext {
-  text-align: center;
   color: #fff;
   font-size: 9px;
   font-weight: 500;
