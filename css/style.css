@@ -117,8 +117,7 @@ it looks small. I followed the design file in this case.*/
 }
 
 .testimonial {
-
-  background: url(../images/testimonial_bg.jpg) no repeat center top #071324;
+  background: url(../images/testimonial_bg.jpg) no repeat top center;
   background-size: cover;
 }
 
