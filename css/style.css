@@ -117,6 +117,8 @@ a bit and found the background-size:cover - that did it! */
 where it puts the font size for the text on 14px. But compared to the jpg
 it looks small. I followed the design file in this case.*/
 
+/* CTA stands for Call to Action; CTS is Call to Signup. Cheers guys!*/
+
 .benefits {
   color: #121212;
   font-size: 13px;	
@@ -160,7 +162,20 @@ footer {
 
 .footerlogo {
   text-align: center;
+  color: #f9e42e;
+  font-weight: 800;
+  font-size: 24px;
+  padding-top: 20px; 
 }
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+  text-align: center;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
