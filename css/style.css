@@ -131,11 +131,9 @@ it looks small. I followed the design file in this case.*/
 }
 
 .testimonial {
-  background: url(../images/testimonial_bg.jpg) no repeat top center;
+  background: url(../images/testimonial_bg.jpg) no-repeat top center;
   background-size: cover;
 }
-
-/* HELP! Not sure why testimonial background image is not showing up */
 
 .quote {
   font-style: italic;
@@ -145,6 +143,8 @@ it looks small. I followed the design file in this case.*/
   padding-left: 15%;
   padding-right: 15%;
   padding-top: 20px; 
+  padding-bottom: 20px;
+  color: #fff;
 }
 
 .signup {
@@ -153,9 +153,13 @@ it looks small. I followed the design file in this case.*/
   padding-bottom: 15px;
 }
 
-.footer {
+footer {
   height: 50px;
   backround-color: #121212;
+}
+
+.footerlogo {
+  text-align: center;
 }
 
 /******************************************
