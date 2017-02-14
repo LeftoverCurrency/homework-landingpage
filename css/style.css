@@ -99,6 +99,20 @@ a bit and found the background-size:cover - that did it! */
   padding: 8px 0;
 }
 
+.CTS {
+  width: 180px;
+  border-radius: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #121212;
+  font-weight: 800;
+  margin: 0 auto;
+  display: block;
+  padding: 8px 0;
+  text-align: center;
+}
+
 /*Clarification on the above CTA (call to action) - I followed the design file
 where it puts the font size for the text on 14px. But compared to the jpg
 it looks small. I followed the design file in this case.*/
