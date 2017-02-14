@@ -43,13 +43,13 @@ body {
 
 h2 {
 	font-size: 24px;
-	font-weight: 500;
+	font-weight: 600;
 	color: #fff;
 }	
 
 h3 {
 	font-size: 20px;
-	font-weight: 500;
+	font-weight: 600;
 }
 	
 a:hover {
@@ -171,9 +171,15 @@ footer {
 .footertext {
   color: #fff;
   font-size: 9px;
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+nav {
+  background-color: #033048;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 
