@@ -156,7 +156,6 @@ it looks small. I followed the design file in this case.*/
 }
 
 footer {
-  height: 150px;
   background-color: #121212;
 }
 
@@ -175,6 +174,13 @@ footer ul li {
   text-align: center;
 }
 
+.footertext {
+  text-align: center;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
 
 
 /******************************************
