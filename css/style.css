@@ -176,12 +176,104 @@ footer {
   padding-bottom: 10px;
 }
 
-nav {
+.header {
   background-color: #033048;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
+.headerleft{
+  float: left;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.topnav{
+  float: right;
+  width: 60%
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px; 
+}
+
+nav li {
+
+  display: inline;
+  padding-right: 10px;
+  font-weight: 600;
+  color: #f9e42e;
+}
+
+.wrapper {
+  height: 80px;
+}
+
+.mainwrapper {
+  background-color: #f0efef;
+}
+
+.blogtitle {
+  color: #121212;
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+/* this is messing up things 
+/*  p:first-letter {
+    font-weight: 800;
+    font-size: 72px; */
+
+
+.mainleft {
+  float: left;
+  width: 700px;
+  padding-left: 62px;
+  padding-top: 35px;
+}
+
+.mainright {
+  padding-top: 35px;
+}
+
+.gutter {
+  width: 20px;
+}
+
+.mainwrapper {
+  height: 1800px;
+}
+
+.readmore {
+  text-align: right;
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.blogpicture {
+  width: 600px;
+}
+
+.blogtext {
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+.navright {
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.abouttext {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.learnmore {
+  font-size: 22px;
+  font-weight: 600;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
