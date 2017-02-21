@@ -51,9 +51,17 @@ h3 {
 	font-size: 20px;
 	font-weight: 600;
 }
+
+a:visited {
+  color: #f9e42e;
+}
 	
 a:hover {
 	color: #4169E1;
+}
+
+a {
+  text-decoration: none;
 }
 
 
