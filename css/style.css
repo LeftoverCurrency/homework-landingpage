@@ -229,6 +229,8 @@ nav li {
   width: 700px;
   padding-left: 62px;
   padding-top: 35px;
+  margin-right: 20px;
+  padding-right: 20px;
 }
 
 .mainright {
@@ -257,6 +259,7 @@ nav li {
 .blogtext {
   font-size: 24px;
   padding-top: 20px;
+  padding-left: 5px;
 }
 
 .navright {
